@@ -1,0 +1,68 @@
+body {
+    font-family: Lucica Console, monospace;
+    background-color: #fcfcfb;
+    }
+#wrapper {
+    background-color: #fcfcfb;
+    }
+header {
+    color: #9ccb77;
+    text-align: center;
+    background-color: #c4c7ad;
+    }
+header a {
+    text-decoration: none;
+    color: #6b944c;
+    }
+.sections {
+    display: flex;
+    padding: 1px 20px 20px 30px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1em;
+    text-align: center;
+    background-color: #c4c7ad;
+    }
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #8dad74;
+    }
+nav a:link, nav a:visited {
+    text-decoration: none;
+    color: #44392d;
+    }
+nav a:hover {
+    text-decoration: none;
+    color: #d67243;
+    }
+h1 {
+    color: #6b944c;
+    font-family: Lucica Console, monospace;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 2em;
+    }
+h2 {
+    color: #998277;
+    font-family: Lucica Console, monospace;
+    }
+h3 {
+    text-align: center;
+    }
+p {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    }
+footer {
+    text-align: center;
+    }
+#logoinsert {
+    height: 200px;
+    background-image: url(VNlogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
