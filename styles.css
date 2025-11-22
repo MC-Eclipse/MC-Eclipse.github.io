@@ -14,12 +14,19 @@ header a {
     text-decoration: none;
     color: #6b944c;
     }
+header a:hover {
+    text-decoration: none;
+    color: #6b944c;
+    }
+header a:visited, a:link {
+    text-decoration: none;
+    color: #6b944c;
+    }
 .sections {
     display: flex;
     padding: 1px 20px 20px 30px;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 1em;
+    justify-content: space-around;
     text-align: center;
     background-color: #c4c7ad;
     }
@@ -47,10 +54,15 @@ h1 {
     padding-top: 2em;
     }
 h2 {
-    color: #998277;
+    color: #ac9388;
     font-family: Lucica Console, monospace;
     }
 h3 {
+    text-align: center;
+    }
+h4 {
+    color: #977d71;
+    font-size: 1.2em;
     text-align: center;
     }
 p {
@@ -59,10 +71,90 @@ p {
     }
 footer {
     text-align: center;
+    margin-top: 0.5em;
     }
 #logoinsert {
     height: 200px;
     background-image: url(VNlogo.png);
     background-repeat: no-repeat;
     background-size: contain;
+    }
+.history {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ebebeb;
+    }
+main ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    list-style-type: none;
+    margin: 0.5em;
+    padding: 2em;
+    text-indent: 1.5em;
+    font-size: 1em;
+    padding-bottom: 4em;
+    }
+.plantmain {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(lantana.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ebebeb;
+    padding: 4em 4em 6em 4em;
+    margin-top: 1em;
+    }
+.overview {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(cactus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ebebeb;
+    padding: 4em 4em 6em 4em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    }
+.gallerymain {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Crys.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ebebeb;
+    padding: 4em 4em 6em 4em;
+    margin-top: 1em;
+    }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 2em;
+    }
+.form {
+    width: auto;
+    background-color: #ac9388;
+    padding: 0.2em 1em 1em 1em;
+    text-align: center;
+    }
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    }
+a:hover {
+    text-decoration: none;
+    color: #d67243;
+    }
+table {
+    border: 2px solid #6b944c;
+    border-collapse: collapse;
+    }
+td, th {
+    padding: 0.5em;
+    border: 2px solid #8dad74;
+    text-align: center;
+    }
+th {
+    color: #6b944c;
     }
