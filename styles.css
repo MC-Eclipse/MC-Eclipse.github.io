@@ -59,10 +59,16 @@ h2 {
     }
 h3 {
     text-align: center;
+    font-size: 1.3em;
     }
 h4 {
     color: #977d71;
     font-size: 1.2em;
+    text-align: center;
+    }
+h5 {
+    color: #6b944c;
+    font-size: 2em;
     text-align: center;
     }
 p {
@@ -80,7 +86,8 @@ footer {
     background-size: contain;
     }
 .history {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Desert.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url(Desert.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -98,7 +105,8 @@ main ul {
     padding-bottom: 4em;
     }
 .plantmain {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(lantana.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url(lantana.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -107,7 +115,8 @@ main ul {
     margin-top: 1em;
     }
 .overview {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(cactus.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(cactus.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -118,7 +127,8 @@ main ul {
     margin-top: 1em;
     }
 .gallerymain {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Crys.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(Crys.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -157,4 +167,75 @@ td, th {
     }
 th {
     color: #6b944c;
+    }
+.plantsection {
+    background-color: #a3a789;
+    padding: 1em;
+    text-align: center;
+    }
+.cactus {
+    background-image: url(hedgehog.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ebebeb;
+    padding: 4em 4em 6em 4em;
+    margin-top: 1em;
+    height: 360px;
+    width: 360px;
+    }
+.succulent {
+    background-image: url(succulent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ebebeb;
+    padding: 4em 4em 6em 4em;
+    margin-top: 1em;
+    height: 360px;
+    width: 360px;
+    }
+.flower {
+    background-image: url(purple_flowers.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ebebeb;
+    padding: 4em 4em 6em 4em;
+    margin-top: 1em;
+    height: 360px;
+    width: 360px;
+    }
+.pottery {
+    background-image: url(pottery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ebebeb;
+    padding: 4em 4em 6em 4em;
+    margin-top: 1em;
+    height: 360px;
+    width: 360px;
+    }
+.minerals {
+    background-image: url(Crys.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ebebeb;
+    padding: 4em 4em 6em 4em;
+    margin-top: 1em;
+    height: 360px;
+    width: 360px;
+    }
+.decorative {
+    background-image: url(ceramics.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ebebeb;
+    padding: 4em 4em 6em 4em;
+    margin-top: 1em;
+    height: 360px;
+    width: 360px;
     }
